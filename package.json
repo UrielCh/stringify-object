@@ -1,12 +1,15 @@
 {
   "name": "@u4/stringify-object",
   "version": "0.1.1",
-  "type": "module",
+  "author": "Uriel Chemouni <uchemouni@gmail.com> (https://uriel.ovh/)",
   "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
   "exports": {
     ".": "./dist/index.js"
   },
+  "description": "Stringify an object/array like JSON.stringify just without all the double-quotes, Typescript, Zero-dependency.",
   "files": [
     "dist",
     "README.md",
@@ -24,8 +27,6 @@
     "typescript",
     "bun"
   ],
-  "description": "Stringify an object/array like JSON.stringify just without all the double-quotes, Typescript, Zero-dependency.",
-  "author": "Uriel Chemouni <uchemouni@gmail.com> (https://uriel.ovh/)",
   "publishConfig": {
     "access": "public"
   },
@@ -33,10 +34,6 @@
     "build": "bun x tsc -p tsconfig.build.json",
     "test": "bun test"
   },
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
-  }
+  "type": "module",
+  "types": "./dist/index.d.ts"
 }
