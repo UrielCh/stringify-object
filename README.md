@@ -94,7 +94,9 @@ Circular references are replaced with `"[Circular]"`, and object keys are only q
 
 ## Comparison
 
-| Package | node_modules size | File count | Reduction vs original |
-| --- | --- | --- | --- |
-| `stringify-object` | ~1.2 MB | ~276 files | baseline 🐘 |
-| `@u4/stringify-object` | ~32 KB | ~13 files | ~37x smaller, ~21x fewer files 🪶 |
+| Metric | `@u4/stringify-object` | `stringify-object` |
+| --- | --- | --- |
+| node_modules size | ~32 KB | ~1.2 MB |
+| File count | ~13 files | ~276 files |
+| Reduction vs original | ~37x smaller, ~21x fewer files 🪶 | baseline 🐘 |
+| Typings | ✅ built-in | ⚠️ needs `@types/stringify-object` |
