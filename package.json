@@ -30,6 +30,14 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UrielCh/stringify-object.git"
+  },
+  "homepage": "https://github.com/UrielCh/stringify-object",
+  "bugs": {
+    "url": "https://github.com/UrielCh/stringify-object/issues"
+  },
   "scripts": {
     "build": "bun x tsc -p tsconfig.build.json",
     "test": "bun test"

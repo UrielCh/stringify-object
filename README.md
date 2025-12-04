@@ -38,3 +38,10 @@ stringifyObject(new Map([['x', 1]]), {singleQuotes: false, indent: '  '});
 
 - `bun run build` — emit `dist/index.js` and `dist/index.d.ts` for publishing.
 - `bun test` — run the test suite.
+
+## Comparison
+
+| Package | node_modules size | File count | Reduction vs original |
+| --- | --- | --- | --- |
+| `stringify-object@6.0.0` | ~1.2 MB | ~276 files | baseline |
+| `@u4/stringify-object` | ~32 KB | ~13 files | ~37x smaller, ~21x fewer files |
