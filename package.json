@@ -1,6 +1,6 @@
 {
   "name": "@u4/stringify-object",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -12,6 +12,23 @@
     "README.md",
     "LICENSE"
   ],
+  "keywords": [
+    "stringify",
+    "stringify-object",
+    "serialize",
+    "pretty-print",
+    "object",
+    "map",
+    "set",
+    "circular",
+    "typescript",
+    "bun"
+  ],
+  "description": "Stringify an object/array like JSON.stringify just without all the double-quotes, Typescript, Zero-dependency.",
+  "author": "Uriel Chemouni <uchemouni@gmail.com> (https://uriel.ovh/)",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "bun x tsc -p tsconfig.build.json",
     "test": "bun test"
