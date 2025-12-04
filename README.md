@@ -87,11 +87,13 @@ console.log(pretty);
 
 Circular references are replaced with `"[Circular]"`, and object keys are only quoted when necessary (e.g. `{'foo-bar': true}`).
 
+> Note: I created this project because the original package pulled in 17 extra modules and even crashed my Bun runtime with unused code. This fork keeps everything inline and dependency-free.
+
 ## Comparison
 
 | Metric | `@u4/stringify-object` | `stringify-object` |
 | --- | --- | --- |
 | node_modules size | ~32 KB | ~1.2 MB |
-| File count | ~13 files | ~276 files |
+| Entries (files + folders) | ~12 | ~275 |
 | Reduction vs original | ~37x smaller, ~21x fewer files 🪶 | baseline 🐘 |
 | Typings | ✅ built-in | ⚠️ needs `@types/stringify-object` |

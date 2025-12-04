@@ -1,6 +1,6 @@
 {
   "name": "@u4/stringify-object",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "author": "Uriel Chemouni <uchemouni@gmail.com> (https://uriel.ovh/)",
   "main": "./dist/index.js",
   "devDependencies": {
