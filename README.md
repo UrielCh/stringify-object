@@ -87,11 +87,6 @@ console.log(pretty);
 
 Circular references are replaced with `"[Circular]"`, and object keys are only quoted when necessary (e.g. `{'foo-bar': true}`).
 
-## Scripts
-
-- `bun run build` — emit `dist/index.js` and `dist/index.d.ts` for publishing. 📦
-- `bun test` — run the test suite. ✅
-
 ## Comparison
 
 | Metric | `@u4/stringify-object` | `stringify-object` |
